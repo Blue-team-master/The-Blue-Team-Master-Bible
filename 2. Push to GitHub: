@@ -1,0 +1,3 @@
+git branch -M main
+git remote add origin https://github.com/<your-username>/The-Blue-Team-Master-Bible.git
+git push -u origin main
