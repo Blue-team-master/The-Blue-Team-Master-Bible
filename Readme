@@ -1,0 +1,25 @@
+graph LR
+    A[1. Computer Fundamentals] --> B[2. Networking Basics]
+    B --> C[3. Linux & Terminal]
+    C --> D[4. Security Fundamentals]
+    D --> E[5. Essential Tools]
+    E --> F[6. Programming & Scripting]
+    F --> G[7. Web App Security]
+    G --> H[8. Hands-On Practice]
+    H --> I[9. Blue Team & Defense]
+    I --> J[10. Certifications]
+    J --> K[11. Continuous Learning]
+    
+    style A fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style B fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style C fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style D fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style E fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style F fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style G fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style H fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style I fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style J fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style K fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+
+
