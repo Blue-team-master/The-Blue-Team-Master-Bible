@@ -9,3 +9,6 @@ Get-WinEvent -LogName System | Where-Object {$_.Message -like "*USB*"}
 | Eradication  | Remove malicious files/drivers; run AV scans; patch vulnerabilities    | Antivirus, EDR, OS patching                                                    | Security Team, IT Admin |
 | Recovery     | Restore from clean backup; reconnect after validation; monitor activity| Backup systems, monitoring dashboards                                          | IT Admin, SOC Analyst   |
 | Lessons Learned | Conduct post-incident review; update policies; share findings; feed IoCs into SIEM | Incident review reports, SIEM/EDR threat feeds                                 | Security Team, Management|
+Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Enum\USBSTOR\* | Select-Object FriendlyName, PSChildName
+Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Enum\USBSTOR\* | Select-Object FriendlyName, PSChildName
+
